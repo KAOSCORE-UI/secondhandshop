@@ -21,10 +21,11 @@ A robust, player-to-player marketplace script for FiveM allowing players to list
 
 ## Installation
 1. Download or clone this repository into your `resources` folder.
-2. Ensure you have the required dependencies running.
-3. Import the database tables by running the provided `install.sql` file in your database.
-4. Configure the script to your liking in `config.lua`.
-5. Ensure the resource in your `server.cfg`:
+2. Remove main from the end of the file name.
+3. Ensure you have the required dependencies running.
+4. Import the database tables by running the provided `install.sql` file in your database.
+5. Configure the script to your liking in `config.lua`.
+6. Ensure the resource in your `server.cfg`:
 ```cfg
 ensure secondhandshop
 ```
