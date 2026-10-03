@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secondhand Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="app" style="display: none;">
+        <div class="shop-container">
+            <div class="header">
+                <div class="title-wrap">
+                    <i class="fas fa-store"></i>
+                    <h1>Secondhand Market</h1>
+                </div>
+                <div class="close-btn" id="closeBtn">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="items-grid" id="itemsGrid">
+                <!-- Items will be injected here via JS -->
+            </div>
+            
+            <div class="empty-state" id="emptyState" style="display: none;">
+                <i class="fas fa-box-open"></i>
+                <h2>No items available</h2>
+                <p>Check back later or list your own items!</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
